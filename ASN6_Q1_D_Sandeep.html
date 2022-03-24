@@ -1,0 +1,73 @@
+<!--/*********************************************************************************
+* ITC5202 – Assignment 6
+ITC5202: XML and JavaScript Professor: Shahdad
+* I declare that this assignment is my own work in accordance with Humber Academic Policy. 
+* No part of this assignment has been copied manually or electronically from any other source
+* (including web sites) or distributed to other students.
+*
+* Name: Sandeep Das Student ID: N01472825 Date: 19th March 2022
+*
+********************************************************************************/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: auto;
+        border: 1px solid #ddd;
+        }
+
+        th, td {
+        text-align: left;
+        padding: 16px;
+        }
+
+        tr:nth-child(even) {
+        background-color: #ccecb5;
+        }
+    </style>
+</head>
+<body>
+    <div id="output"></div>
+    
+    <script>
+        xhr = new XMLHttpRequest();
+        xhr.open("GET","ASN6_Q1_A_Sandeep.json",false);
+        xhr.send();
+
+        responseJson = JSON.parse(xhr.responseText);
+
+        var output = "<table><tr><th>Recipe name</th><th>Recipe Ingredients</th></tr>";
+        
+
+        var recipes = responseJson.recipeBook.recipe;
+        console.log(recipes);
+
+        
+        for ( let i = 0 ; i<recipes.length; i++ ){
+            output += "<tr><td>"+recipes[i].name+"</td><td>";
+            ingredients = recipes[i].ingredients.ingredient;
+            output+="<ul>";
+            for ( let j = 0 ; j<ingredients.length ; j++){
+                
+                    output+="<li>";
+                    output+=ingredients[j].ingredientName;
+                    output+="</li>";
+                
+            }
+            output+="</td></tr>";
+
+        }
+
+        
+        output+="</table>";
+        document.getElementById("output").innerHTML = output;
+
+    </script>
+</body>
+</html>

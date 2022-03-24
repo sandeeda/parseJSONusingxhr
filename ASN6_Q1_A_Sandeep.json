@@ -1,0 +1,126 @@
+{
+    "#comment": "\n   ITC5202: Your Name: ......\n   This document contains Best Recipes\n",
+    "recipeBook": {
+      "title": "Weekend Fun Snacks",
+      "notes": {
+        "#cdata-section": "Need an idea for a fun weekend snack?  Try one of our simple recipes!"
+      },
+      "recipe": [
+        {
+          "name": "Fruit Saber",
+          "description": "Ahoy matey! Fighting over fruit.",
+          "ingredients": {
+            "ingredient": [
+              {
+                "measurement": "1",
+                "ingredientName": "pear"
+              },
+              {
+                "measurement": "1",
+                "ingredientName": "banana"
+              },
+              {
+                "measurement": "1",
+                "ingredientName": "strawberry"
+              },
+              {
+                "measurement": "1",
+                "ingredientName": "orange"
+              },
+              {
+                "measurement": "4",
+                "ingredientName": "wooden skewers"
+              }
+            ]
+          },
+          "Calories": {
+            "-grade": "light",
+            "#text": " 155 "
+          },
+          "directions": {
+            "direction": [
+              "Cut all fruit in large chunks.",
+              "Skewer the chunks, alternating between the different types of fruit."
+            ]
+          }
+        },
+        {
+          "name": "Peanut Butter Drops",
+          "description": "Great for peanut butter lovers!",
+          "ingredients": {
+            "ingredient": [
+              {
+                "measurement": "½ cup",
+                "ingredientName": "honey"
+              },
+              {
+                "measurement": "½ cup",
+                "ingredientName": "peanut butter"
+              },
+              {
+                "measurement": "1 cup",
+                "ingredientName": "nonfat dry milk"
+              },
+              {
+                "measurement": "1 cup",
+                "ingredientName": "Rice Krispies cereal"
+              },
+              {
+                "measurement": {
+                },
+                "ingredientName": "wax paper"
+              }
+            ]
+          },
+          "Calories": {
+            "-grade": "heavy",
+            "#text": " 655 "
+          },
+          "directions": {
+            "direction": [
+              "Mix all ingredients and then roll the mixture into 1\" balls.",
+              "Lay the balls on waxed paper.",
+              "Refrigerate until set."
+            ]
+          }
+        },
+        {
+          "name": "Leaf Piles",
+          "description": "Jump into a corn flake leaf pile. Nice snack for fall.",
+          "ingredients": {
+            "ingredient": [
+              {
+                "measurement": "6 cups",
+                "ingredientName": "corn flakes"
+              },
+              {
+                "measurement": "1 cup",
+                "ingredientName": "Karo syrup"
+              },
+              {
+                "measurement": "1 cup",
+                "ingredientName": "peanut butter"
+              },
+              {
+                "measurement": {
+                },
+                "ingredientName": "wax paper"
+              }
+            ]
+          },
+          "Calories": {
+            "-grade": "light",
+            "#text": " 255 "
+          },
+          "directions": {
+            "direction": [
+              "In a microwave, melt the Karo and peanut butter together.",
+              "Pour over the corn flakes and place them in 2\" piles on wax paper.",
+              "Let them cool and dry."
+            ]
+          }
+        }
+      ]
+    },
+    "#standalone": "yes"
+  }

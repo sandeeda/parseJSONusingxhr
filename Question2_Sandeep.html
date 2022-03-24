@@ -1,0 +1,79 @@
+<!--/*********************************************************************************
+   * ITC5202 – Assignment 6
+   ITC5202: XML and JavaScript Professor: Shahdad
+   * I declare that this assignment is my own work in accordance with Humber Academic Policy. 
+   * No part of this assignment has been copied manually or electronically from any other source
+   * (including web sites) or distributed to other students.
+   *
+   * Name: Sandeep Das Student ID: N01472825 Date: 19th March 2022
+   *
+   ********************************************************************************/ -->
+   <html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <style>
+       </style>
+    </head>
+    <body>
+       <div id="out"></div>
+    </body>
+    <script>
+       var xhr = new XMLHttpRequest();
+       xhr.open("GET","Question2_Sandeep.json",false);
+       xhr.send();
+       
+       var json = xhr.responseText;
+       json = JSON.parse(json);
+       console.log(json);
+       var output = "<table class = 'table table-striped'><tr><th>Semester Number</th><th>Courses</th></tr>";
+       
+       for ( let i = 0 ; i < json.semesters.length ; i++){
+           output+="<tr><td><b>Semester Number: </b>"+json.semesters[i].semester["@number"]+"</td><td>";
+           for (let j = 0 ; j < json.semesters[i].semester.courses.length ; j++ ){
+               
+               output+="Course ID: "+json.semesters[i].semester.courses[j].course[0]["@id"];
+               output+="<br>";
+               output+="Course Name: "+json.semesters[i].semester.courses[j].course[0]["name"];
+               output+="<br>";
+               output+="Course Grade: "+json.semesters[i].semester.courses[j].course[0]["grade"];
+               output+="<br>";
+               output+="Course Status: "+json.semesters[i].semester.courses[j].course[0]["status"];
+               output+="<br>";
+               output+="Course starting date: "+json.semesters[i].semester.courses[j].course[0]["startingDate"];
+               output+="<br>";
+               output+="Taught by: "+json.semesters[i].semester.courses[j].course[0]["professor"];
+               output+="<hr>";
+               
+           }
+           output+="</td>";
+           output+="</tr>";
+       }
+       output+="</table>";
+       
+       document.getElementById("out").innerHTML = output;
+       // Getting a transpose of table using the function below. This function was refernced from => https://codepen.io/amirsaleem/pen/JLexaa
+       $("table").each(function() {
+           var $this = $(this);
+           var newrows = [];
+           $this.find("tr").each(function(){
+               var i = 0;
+               $(this).find("td").each(function(){
+                   i++;
+                   if(newrows[i] === undefined) { newrows[i] = $("<tr></tr>"); }
+                   newrows[i].append($(this));
+               });
+           });
+           $this.find("tr").remove();
+           $.each(newrows, function(){
+               $this.append(this);
+           });
+       });
+       
+       
+       
+    </script>
+ </html>

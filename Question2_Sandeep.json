@@ -1,0 +1,296 @@
+{
+    "semesters": [
+      {
+        "semester": {
+          "@number": "1",
+          "courses": [
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "JAVA",
+                  "grade": "A",
+                  "status": "Passed",
+                  "startingDate": "7 Sep 2021",
+                  "professor": "Ravinder Pal Singh"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "DBMS",
+                  "grade": "A",
+                  "status": "Passed",
+                  "startingDate": "7 Sep 2021",
+                  "professor": "Pawandeep Singh"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC5-104",
+                  "name": "OS",
+                  "grade": "A",
+                  "status": "Passed",
+                  "startingDate": "7 Sep 2021",
+                  "professor": "Tahir Minhas"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Req. Analysis",
+                  "grade": "A",
+                  "status": "Passed",
+                  "startingDate": "7 Sep 2021",
+                  "professor": "Sarvanathan Jeganathan"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Web Dev",
+                  "grade": "A",
+                  "status": "Passed",
+                  "startingDate": "7 Sep 2021",
+                  "professor": "Nithya"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "semester": {
+          "@number": "2",
+          "courses": [
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "DB prog using JAVA",
+                  "grade": "NA",
+                  "status": "DOING",
+                  "startingDate": "8 Jan 2021",
+                  "professor": "Mehrnaz Zhian"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Oracle DB Dev",
+                  "grade": "NA",
+                  "status": "DOING",
+                  "startingDate": "8 Jan 2021",
+                  "professor": "Tazha Shabir"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Win app Dev",
+                  "grade": "NA",
+                  "status": "DOING",
+                  "startingDate": "8 Jan 2021",
+                  "professor": "Riyadh-El-Assawi"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "PL/SQL",
+                  "grade": "NA",
+                  "status": "DOING",
+                  "startingDate": "8 Jan 2021",
+                  "professor": "Geetika Prasher"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Data Analytics",
+                  "grade": "NA",
+                  "status": "DOING",
+                  "startingDate": "8 Jan 2021",
+                  "professor": "Hojhat"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "XML and JS",
+                  "grade": "NA",
+                  "status": "DOING",
+                  "startingDate": "8 Jan 2021",
+                  "professor": "Shahdad Shariatmadari"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "semester": {
+          "@number": "3",
+          "courses": [
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "JAVA",
+                  "grade": "A",
+                  "status": "Will Be Taken",
+                  "startingDate": "7 Sep 2022",
+                  "professor": "Ravinder Pal Singh"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "DBMS",
+                  "grade": "A",
+                  "status": "Will Be Taken",
+                  "startingDate": "7 Sep 2022",
+                  "professor": "Pawandeep Singh"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC5-104",
+                  "name": "OS",
+                  "grade": "A",
+                  "status": "Will Be Taken",
+                  "startingDate": "7 Sep 2022",
+                  "professor": "Tahir Minhas"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Req. Analysis",
+                  "grade": "A",
+                  "status": "Will Be Taken",
+                  "startingDate": "7 Sep 2022",
+                  "professor": "Sarvanathan Jeganathan"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Web Dev",
+                  "grade": "A",
+                  "status": "Will Be Taken",
+                  "startingDate": "7 Sep 2022",
+                  "professor": "Nithya"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "semester": {
+          "@number": "4",
+          "courses": [
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "DB prog using JAVA",
+                  "grade": "NA",
+                  "status": "Will Be Taken",
+                  "startingDate": "8 Jan 2022",
+                  "professor": "Mehrnaz Zhian"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Oracle DB Dev",
+                  "grade": "NA",
+                  "status": "Will Be Taken",
+                  "startingDate": "8 Jan 2022",
+                  "professor": "Tazha Shabir"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Win app Dev",
+                  "grade": "NA",
+                  "status": "Will Be Taken",
+                  "startingDate": "8 Jan 2022",
+                  "professor": "Riyadh-El-Assawi"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "PL/SQL",
+                  "grade": "NA",
+                  "status": "Will Be Taken",
+                  "startingDate": "8 Jan 2022",
+                  "professor": "Geetika Prasher"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "Data Analytics",
+                  "grade": "NA",
+                  "status": "Will Be Taken",
+                  "startingDate": "8 Jan 2022",
+                  "professor": "Hojhat"
+                }
+              ]
+            },
+            {
+              "course": [
+                {
+                  "@id": "ITC-5104",
+                  "name": "XML and JS",
+                  "grade": "NA",
+                  "status": "Will Be Taken",
+                  "startingDate": "8 Jan 2022",
+                  "professor": "Shahdad Shariatmadari"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
